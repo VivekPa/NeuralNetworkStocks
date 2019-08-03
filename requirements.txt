@@ -1,5 +1,5 @@
 pandas-datareader
-fix-yahoo-finance
+yfinance
 numpy
 pandas
 tensorflow

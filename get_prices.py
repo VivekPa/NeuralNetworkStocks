@@ -1,7 +1,7 @@
 import pandas_datareader.data as pdr
-import fix_yahoo_finance as fix
+import yfinance as yf
 import time
-fix.pdr_override()
+yf.pdr_override()
 
 
 def get_stock_data(ticker, start_date, end_date):
